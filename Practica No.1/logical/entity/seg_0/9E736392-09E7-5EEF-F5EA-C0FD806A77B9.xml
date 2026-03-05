@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E736392-09E7-5EEF-F5EA-C0FD806A77B9" name="Tipo licencia">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:38:37 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_tipo" id="EAF145BF-9A5C-EA31-5CB0-96B5C20CB73A">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:38:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[id del tipo de licencia
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="46B42B5C-A0FB-0F73-7BD9-AF2E8B15AB69">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:38:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombde del tipo de licencia
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Abreviatura" id="2B7EB78C-2953-E97E-31FE-1A45CA026215">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:39:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Abreviatura del tipo de licencia
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04B25DA3-E365-48BC-683D-DA971635A382" name="Tipo licencia PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:38:53 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EAF145BF-9A5C-EA31-5CB0-96B5C20CB73A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

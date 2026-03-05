@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="400814F1-8A95-75C4-79A4-0FFFB0DB03B2" name="Registros_de_pagos">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>F488A694-6F80-3B02-821A-FD5004D2E881</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pago" id="59554917-3663-1FAE-F7A7-4657A7E34A30">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>CB08E951-6358-B3FA-F019-1AA6B1AAD6EF</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_pago" id="8BCBDE50-C37A-AB8F-92BA-26771303D765">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>7DB28709-64D2-4A59-CC8A-E6BC1C4C7036</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Monto_pagado" id="C30CB251-9184-1D51-84D2-5C38FD5B10B9">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>DBEFF2EC-E24E-D09C-C09D-1646AB960F02</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Periodo_cubierto" id="AF83DB46-7108-8D52-33CB-D229C69D4AD9">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>9E243F2B-9486-756F-1747-BB2A5FB10003</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuarios_ID_usuario" id="503DDCDA-9D10-0A4E-9C59-A65B1E93F47C">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>388CAE1D-4C12-9B86-A00C-0C05E9671A8F</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD951EA4-0A83-72CE-C17F-A17CCF871A15" referredColumn="E153A8AF-D25F-4C3C-9413-0FE391757A1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="546DB707-A0CD-47B0-3A47-D28AA428152B" name="Registros_de_pagos_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>D089398B-16D6-6A31-3C42-9126F2FF4D66</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59554917-3663-1FAE-F7A7-4657A7E34A30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C833EEF-B13C-B3C3-ED64-E7931DE57268" name="Registros_de_pagos_Usuarios_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>609E61AE-D197-BD68-2D60-6F4B2ABC78DC</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="503DDCDA-9D10-0A4E-9C59-A65B1E93F47C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

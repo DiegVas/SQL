@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F488A694-6F80-3B02-821A-FD5004D2E881" name="Registros de pagos">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:06:16 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_pago" id="CB08E951-6358-B3FA-F019-1AA6B1AAD6EF">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:06:27 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de pago" id="7DB28709-64D2-4A59-CC8A-E6BC1C4C7036">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:06:40 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Monto pagado" id="DBEFF2EC-E24E-D09C-C09D-1646AB960F02">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:06:54 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Periodo cubierto" id="9E243F2B-9486-756F-1747-BB2A5FB10003">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:08:25 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_usuario" id="388CAE1D-4C12-9B86-A00C-0C05E9671A8F">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:33:35 UTC</createdTime>
+<generatorID>609E61AE-D197-BD68-2D60-6F4B2ABC78DC</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<referedAttribute>3EFED100-4358-010F-B108-0DF68109FF7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D089398B-16D6-6A31-3C42-9126F2FF4D66" name="Registros de pagos PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:06:39 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB08E951-6358-B3FA-F019-1AA6B1AAD6EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

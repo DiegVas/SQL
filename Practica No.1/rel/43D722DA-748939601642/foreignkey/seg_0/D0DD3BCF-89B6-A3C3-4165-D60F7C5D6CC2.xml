@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0DD3BCF-89B6-A3C3-4165-D60F7C5D6CC2" containerWithKeyObject="D966830B-DB3A-AB46-D4E4-B7C6AFDC920C" localFKIndex="EA48DCE4-E380-536A-33B9-146D1F528E1B" name="Respuesta_teorica_Pregunta_teorica_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>0E113962-5D8E-1CF3-6BF8-B0B3B40F3740</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<referredTableLongName>Pregunta_teorica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B931B583-BE7F-EA57-C38C-B18B4A1FC48B</referredTableID>
+<keyObject>ECDE163A-629F-59EE-0682-1B6FAB9FA603</keyObject>
+<referredKeyID>ECDE163A-629F-59EE-0682-1B6FAB9FA603</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_pregunta_teorica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

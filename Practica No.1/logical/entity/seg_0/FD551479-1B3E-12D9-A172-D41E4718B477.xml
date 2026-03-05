@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD551479-1B3E-12D9-A172-D41E4718B477" name="Dia">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:06:43 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_dia" id="D7FEF174-F8B8-6D1B-E25D-41646CF413B4">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:06:51 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_escuela" id="C38361F5-B298-5D1A-EE65-5E75093329C0">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:13:22 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_de_examenes" id="07E1B047-FBD7-395A-A770-8BBB5A40B68A">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:06:54 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B5F4B0E-8453-03EB-A9B0-F490648A9BCF" name="Dia PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:07:18 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7FEF174-F8B8-6D1B-E25D-41646CF413B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

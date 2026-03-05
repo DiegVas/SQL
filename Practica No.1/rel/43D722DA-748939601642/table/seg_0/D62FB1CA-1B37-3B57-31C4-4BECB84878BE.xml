@@ -1,0 +1,323 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D62FB1CA-1B37-3B57-31C4-4BECB84878BE" name="Personas">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>DC8A36AE-975B-995B-84E4-7EAC14407351</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_persona" id="B70CE1D8-92A2-329D-DD48-0D8D9484C866">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id primario de la persoan]]></commentInRDBMS>
+<generatorID>CB798211-B2A2-6300-D579-3DE1B86F9767</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Escuela" id="5C088BCC-0EC0-2315-94A4-1C813EBA130C">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la escuela que pertence]]></commentInRDBMS>
+<generatorID>6DD08B6F-6E64-5C6C-FD44-F716AB273C3D</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_completo" id="97E2882A-92C0-E736-7F0E-6242CCB0F3E9">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre completo de la persona]]></commentInRDBMS>
+<generatorID>368E61AC-5D18-567F-707C-E1C922B7F2E7</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="0A24EEE7-BD9C-92E9-5910-73C0DF6236D9">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion de la persona]]></commentInRDBMS>
+<generatorID>ED36208B-973B-29D0-2F33-2FAF53B8A81B</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Identificacion" id="6948EB9B-DC66-BF0F-4A4A-4E2BE8AF0981">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificacion de la persona]]></commentInRDBMS>
+<generatorID>CAFF4056-55DB-0315-13D3-D1E933714043</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="DDAAEE63-3E6E-FCA4-FB2F-38A6A908574A">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono de la persona]]></commentInRDBMS>
+<generatorID>D2F6825D-0499-61DD-7408-ADA91EB95C3C</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fotografia" id="C4F6A969-C48A-D5C4-4E92-96726834109D">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fotografia de la persona
+]]></commentInRDBMS>
+<generatorID>1F633500-6ACE-BEB9-4554-379C75FA8177</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Tipo_Licencia" id="B6AEB195-F86F-80BE-BFBF-69778C870F47">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del tipo de licnecia
+]]></commentInRDBMS>
+<generatorID>142246C2-4A3A-EB16-93F1-5CE06D7CC0F3</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_tramite" id="58C1A67E-A2CE-383D-A41E-1096BCF01C1D">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de tramite
+]]></commentInRDBMS>
+<generatorID>244970F2-3593-5D34-724A-0F93C9308E13</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Departamento" id="49422C01-99CC-CC4D-8975-73301DC75744">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del departamento
+]]></commentInRDBMS>
+<generatorID>A65D9592-4CAA-6E10-6539-632F426C4E06</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_municipio" id="597A9DE2-BA53-908A-6060-3A8493D775A9">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del municipio
+]]></commentInRDBMS>
+<generatorID>F2A992CC-4E62-1215-AAAB-A97EB014EEC6</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genero" id="CDEE61E8-9259-B2FF-35A7-B0967D2CBB57">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Genero de la persona
+]]></commentInRDBMS>
+<generatorID>D550EA71-DF0F-CE88-00EE-39166F9F6DE7</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_nacimiento" id="B773588A-6CEF-49AD-415A-37C2EF4BC006">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de nacimiento de la persona
+]]></commentInRDBMS>
+<generatorID>0FD48AEB-9BAE-5CE5-D900-2CCC41568449</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evaluacion_ID_evaluacion" id="629E46AA-0A4F-F6D8-3500-6E680B75A251">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la evalcuacion
+]]></commentInRDBMS>
+<generatorID>AEE7DE92-A434-CAEB-40D2-E89139477FEE</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D4F9DC2-A732-E02E-2276-C3A97811A8E0" referredColumn="4CFE961C-2700-0737-7F2F-3A0057C73AA1"/>
+</associations>
+</Column>
+<Column name="Departamento_ID_departamento" id="FBAA5ED0-E043-C427-B004-E388D4EBB5AA">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>709FB75D-9A7E-FFEF-CA83-D3A24B8C5EF3</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A1366EC-79B9-29E1-9DBA-053E75692A60" referredColumn="1AFE4D10-5236-B9CC-EBB0-1D8A914F43E9"/>
+</associations>
+</Column>
+<Column name="Municipio_ID_municipio" id="EB19C3E0-CBE4-56E1-D16F-08CA2C8AE37E">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>4EAD685E-5F46-27DF-905A-8855CCE794DC</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="274BE6EE-26EE-06A9-75BB-0A5A6C3EDE5C" referredColumn="4E667BCC-5BE4-7634-C418-993D5A085F70"/>
+</associations>
+</Column>
+<Column name="Escuelas_de_automovilismo_ID_Escuela" id="310EDDBE-F05A-746D-0993-D0412FC4F86A">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>C0FF9CED-9214-6C0E-675A-4052D4C220BB</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C21466AA-8E79-33C8-D7D6-C3004A1BD9F2" referredColumn="60526EE4-80ED-125C-8045-F2E9DB1CF33A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02EDA56C-E8A5-870B-FDEC-8A3CCE6B5984" name="Personas_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>762C68A7-7F4A-D25B-3D1D-2560EBBA8056</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B70CE1D8-92A2-329D-DD48-0D8D9484C866"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F27E2964-10F6-2DFA-EDCE-E98F60C60A8A" name="Personas__IDX">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2541B7D0-AB2B-C849-8B5A-F2670DDAFB7E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="629E46AA-0A4F-F6D8-3500-6E680B75A251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0256B9F5-89A7-05A4-AC51-48C6851FAD02" name="Personas_Evaluacion_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>2541B7D0-AB2B-C849-8B5A-F2670DDAFB7E</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="629E46AA-0A4F-F6D8-3500-6E680B75A251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F23EA3FD-9F63-44B1-9182-4E8AD718F178" name="Personas_Departamento_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>0D8CD854-5F9E-C8A1-37A3-3383DECC97BD</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBAA5ED0-E043-C427-B004-E388D4EBB5AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D111357-B420-2965-B9AC-576C641D67C9" name="Personas_Municipio_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>BCFB1731-4315-37A0-8ACD-719C771321CD</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB19C3E0-CBE4-56E1-D16F-08CA2C8AE37E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2FF0778-9FBF-2F29-2240-A128C32B40D7" name="Personas_Escuelas_de_automovilismo_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>8AD52EA8-7165-F34F-E317-2905F1F8C242</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="310EDDBE-F05A-746D-0993-D0412FC4F86A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

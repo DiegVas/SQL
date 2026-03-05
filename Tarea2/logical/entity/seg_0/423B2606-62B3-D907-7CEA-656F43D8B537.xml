@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="423B2606-62B3-D907-7CEA-656F43D8B537" name="Rutinas">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:09:01 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Rutina" id="4FFE3FBD-A08E-05EC-7D37-45AE9EAA299E">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:18:17 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre de la rutina" id="ED1C6B2A-E9A8-01C9-8221-CA29E9C29FBE">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:31:10 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_usuario" id="01777A44-61D7-CD81-D47C-6A870CB1B5CD">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:18:37 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ grupo muscular" id="F1865351-F9E4-1D8B-2868-3AF71D6B7963">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:26:16 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ejerccio" id="E96CB743-69CF-1774-FEEE-4DA469781D8E">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:30:27 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_usuario1" id="C58C24B7-43B4-2775-8259-35B68DB337F8">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:21 UTC</createdTime>
+<generatorID>8B199040-F6F1-CE16-CECF-58F55B27A685</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<referedAttribute>3EFED100-4358-010F-B108-0DF68109FF7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4F10705-B06F-2F06-943A-2B1E84C16080" name="Rutinas PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:18:51 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FFE3FBD-A08E-05EC-7D37-45AE9EAA299E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

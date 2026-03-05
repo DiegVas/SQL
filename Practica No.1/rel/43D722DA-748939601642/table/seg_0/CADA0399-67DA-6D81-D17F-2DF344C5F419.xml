@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CADA0399-67DA-6D81-D17F-2DF344C5F419" name="Municipio">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>930A5438-8AC5-1C6E-0FA5-A19DEEE505D2</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_municipio" id="4E667BCC-5BE4-7634-C418-993D5A085F70">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del municpio
+]]></commentInRDBMS>
+<generatorID>65B88A11-0051-9E0F-30D0-46FC66B0E017</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_departamento" id="09EA0ED9-9807-E510-8D55-2416B374E211">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del departamento que pertence]]></commentInRDBMS>
+<generatorID>86360AF8-3A66-211C-C229-93CA5EEA7A49</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="072FC7C5-E3EC-3B56-ECD7-05FC5F611F80">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del municipio
+]]></commentInRDBMS>
+<generatorID>B0ADD547-1D15-79CC-CCE5-3EFAC88E9913</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_ID_departamento" id="6589D26B-C141-B1E9-CD4D-3ADB7C87CB3E">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>F0C2FB1D-3C56-F704-98A5-D422AB26A24F</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54CBE1A7-028F-77EF-EBBC-2485F6296E02" referredColumn="1AFE4D10-5236-B9CC-EBB0-1D8A914F43E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="685531E7-F805-525E-591E-F86C5BC577A9" name="Municipio_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>C88EB13A-1932-E150-C7BD-DB66AD356848</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E667BCC-5BE4-7634-C418-993D5A085F70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39A065F8-31BA-7612-283E-143970BFA359" name="Municipio_Departamento_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>726BE9FC-9B17-644E-A4AF-8C88E72AD525</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6589D26B-C141-B1E9-CD4D-3ADB7C87CB3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

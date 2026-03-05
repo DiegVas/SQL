@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47C702EC-3994-FB1A-2A39-4A6B7FC27E9F" name="evaluacion practica">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:25:33 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_evaluacion_practica" id="F08C83D4-E65C-F9EA-6F65-987EC0F12055">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:25:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id evaluacion practica
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_evaluacion" id="0C46818A-1936-DA2A-C946-624978B9AFF7">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:26:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[id de la evalucion que pertence
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_instructor" id="A4799D92-84E0-6D29-6DF2-E4B02D02D98C">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:01:45 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Punteo" id="397605E3-99B2-DF09-F002-D39EE0205F47">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:26:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Punteo que vale la pregunta
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_instructor1" id="FBEFA0F0-38BD-C212-5BC8-F3B671B223C9">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:02:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del instructor
+]]></commentInRDBMS>
+<generatorID>C1819EA2-F32B-ACEB-FFD3-758DC8975939</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<referedAttribute>C69FE710-C3DB-EF70-E13E-5A3FAD7F847C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0FC19E0-0AD2-30B9-0B9F-511FC49873B7" name="evaluacion practica PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:26:38 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F08C83D4-E65C-F9EA-6F65-987EC0F12055</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

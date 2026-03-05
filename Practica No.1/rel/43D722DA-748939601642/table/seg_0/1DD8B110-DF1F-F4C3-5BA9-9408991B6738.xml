@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DD8B110-DF1F-F4C3-5BA9-9408991B6738" name="Tipo_licencia">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>9E736392-09E7-5EEF-F5EA-C0FD806A77B9</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tipo" id="B6EAC76D-1D51-194B-E098-7BE263D31144">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[id del tipo de licencia
+]]></commentInRDBMS>
+<generatorID>EAF145BF-9A5C-EA31-5CB0-96B5C20CB73A</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="AA6063C4-B8E1-524B-FCC8-E8DAA8EE368D">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombde del tipo de licencia
+]]></commentInRDBMS>
+<generatorID>46B42B5C-A0FB-0F73-7BD9-AF2E8B15AB69</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Abreviatura" id="BC7CEA58-8514-7036-5D35-FDF99F1DF213">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Abreviatura del tipo de licencia
+]]></commentInRDBMS>
+<generatorID>2B7EB78C-2953-E97E-31FE-1A45CA026215</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEE86D08-6424-A4D0-E501-148802BC41E3" name="Tipo_licencia_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>04B25DA3-E365-48BC-683D-DA971635A382</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6EAC76D-1D51-194B-E098-7BE263D31144"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

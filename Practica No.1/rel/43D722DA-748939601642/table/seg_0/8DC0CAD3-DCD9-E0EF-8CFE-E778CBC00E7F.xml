@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DC0CAD3-DCD9-E0EF-8CFE-E778CBC00E7F" name="Dia">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>FD551479-1B3E-12D9-A172-D41E4718B477</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_dia" id="B030EC38-EF7C-F935-56B3-4621899107F3">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>D7FEF174-F8B8-6D1B-E25D-41646CF413B4</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_escuela" id="7F4794C3-2F5A-F8A4-2A9D-6FA5B73F81CD">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>C38361F5-B298-5D1A-EE65-5E75093329C0</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_de_examenes" id="62551EEF-1168-F2DA-2BEF-D7D3594C6687">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>07E1B047-FBD7-395A-A770-8BBB5A40B68A</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C71E0F4-E5E4-17AC-0B4B-5E9678A7E9F2" name="Dia_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>4B5F4B0E-8453-03EB-A9B0-F490648A9BCF</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B030EC38-EF7C-F935-56B3-4621899107F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

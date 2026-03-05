@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4C8558F-8392-7F37-FC9E-476ACA0DAB34" name="Pregunta teorica">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:23:19 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_pregunta_teorica" id="381AC7EA-02AC-3B58-777E-9DD669CFFDFB">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:23:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la pregunta teorica
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_respuesta_teorica_correcta" id="C8D30416-ACB2-D82C-BE33-3A6EBC9670C7">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:23:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la respueta correcta
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Texto" id="99AA390A-4ABB-265A-928C-7C6AABCC1EB7">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:24:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Texto de la pregunta
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1373B69-4F2D-8789-1755-3DDE06A345C3" name="Pregunta teorica PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:23:37 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>381AC7EA-02AC-3B58-777E-9DD669CFFDFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

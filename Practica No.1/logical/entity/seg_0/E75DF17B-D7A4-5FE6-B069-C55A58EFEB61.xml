@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E75DF17B-D7A4-5FE6-B069-C55A58EFEB61" name="Centros de evaluacion">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 02:15:15 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_centro" id="E4296546-8DE3-CC2F-0161-D9B19538CF36">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 02:15:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID del centro de evaluacion
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="7502590A-2A3C-27AF-74F3-2DA076B7DB3C">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 02:15:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del centro de evaluacion
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="CD1DCC69-1DF3-C5A6-D12F-908E54DBAD1E">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 02:16:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion del centro de datos
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_departamento" id="C1A6B7EF-0C41-3E75-B5FA-E0C8B6580CDD">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:25:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del departamento que pertenece]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_municipio" id="220DECE1-9F58-4348-3141-3F8A8AAA4DF6">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:26:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del municipio que pertenece
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_departamento1" id="6CC8DB45-0CB1-D192-5A56-8B7863D84E30">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:34:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del departamento
+]]></commentInRDBMS>
+<generatorID>4EFA4264-54D7-BBDA-2FA6-70B57BC7B95E</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<referedAttribute>7587ACFA-3D4E-D7D7-B44F-0354C3CC2DCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_municipio1" id="363A3F05-EF37-F0F1-2E73-4DACE4C6DB5B">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:35:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del municipio
+]]></commentInRDBMS>
+<generatorID>2796E5DD-8BBA-657B-52AE-EF8BF8420737</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<referedAttribute>65B88A11-0051-9E0F-30D0-46FC66B0E017</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED794746-B2B4-EB53-CCEF-068E877D16A9" name="Centros ubicados PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 02:15:43 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4296546-8DE3-CC2F-0161-D9B19538CF36</attributeRef>
+<attributeRef>6CC8DB45-0CB1-D192-5A56-8B7863D84E30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

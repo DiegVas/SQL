@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rutina ejerccios" directorySegmentName="seg_0" id="2D1E64D9-AF1D-D679-380B-79DD09C170B0">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:34:17 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<sourcePk>C4F10705-B06F-2F06-943A-2B1E84C16080</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>423B2606-62B3-D907-7CEA-656F43D8B537</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>153A8EA2-26B7-8905-81DE-30DF91D5A0E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Series" id="6B496647-DB09-BBC0-788A-6ACD4F031E87">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:34:27 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Repeticiones" id="B44F6EFB-26C6-0522-7031-C230A3C56F3A">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:34:37 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B931B583-BE7F-EA57-C38C-B18B4A1FC48B" name="Pregunta_teorica">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>C4C8558F-8392-7F37-FC9E-476ACA0DAB34</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pregunta_teorica" id="27452F65-C91A-6578-F95E-FC97F764A078">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la pregunta teorica
+]]></commentInRDBMS>
+<generatorID>381AC7EA-02AC-3B58-777E-9DD669CFFDFB</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_respuesta_teorica_correcta" id="589D0121-994F-5989-8C9B-2CC4D7F7DF5A">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la respueta correcta
+]]></commentInRDBMS>
+<generatorID>C8D30416-ACB2-D82C-BE33-3A6EBC9670C7</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Texto" id="E3CE2312-AE95-D2AD-721B-8EBE6407D3D7">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Texto de la pregunta
+]]></commentInRDBMS>
+<generatorID>99AA390A-4ABB-265A-928C-7C6AABCC1EB7</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECDE163A-629F-59EE-0682-1B6FAB9FA603" name="Pregunta_teorica_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>D1373B69-4F2D-8789-1755-3DDE06A345C3</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27452F65-C91A-6578-F95E-FC97F764A078"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

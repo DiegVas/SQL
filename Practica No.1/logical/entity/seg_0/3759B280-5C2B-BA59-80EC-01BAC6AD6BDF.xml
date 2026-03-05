@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3759B280-5C2B-BA59-80EC-01BAC6AD6BDF" name="Evaluacion">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:12:51 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_evaluacion" id="C7EDF25F-8CCF-5D59-A83E-25B1204064AB">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:13:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la evalacion
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_fase1" id="77B9E908-6D63-ED83-D70E-7316D3B6004B">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:13:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la fase 1
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_fase2" id="3086D977-4473-95B0-AD96-17E75E9E2C9C">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:13:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la gase 2]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_tipo_licencia" id="B2C55E28-43D6-A56C-8800-04C9E7D1C2F2">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:45:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del tipo de licencia que eprtence]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_tipo" id="E90EF7A8-B636-81F9-3CFD-A1CEF91A1DF7">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:48:40 UTC</createdTime>
+<generatorID>06B6A1AD-5097-1C74-8795-A044C3835C09</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<referedAttribute>EAF145BF-9A5C-EA31-5CB0-96B5C20CB73A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correlativo" id="EDA5F345-1841-E538-0C21-EADA73DD4FB6">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:02:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correlativo
+]]></commentInRDBMS>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9938BBF-10FA-55D4-3E14-2A97F85ACF15" name="Evaluacion PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 04:13:20 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<engineerTo>
+<item key="43D722DA-D3E5-8263-2712-748939601642" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C7EDF25F-8CCF-5D59-A83E-25B1204064AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

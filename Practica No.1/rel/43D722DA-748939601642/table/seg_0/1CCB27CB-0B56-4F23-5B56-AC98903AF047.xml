@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CCB27CB-0B56-4F23-5B56-AC98903AF047" name="Evaluacion">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>3759B280-5C2B-BA59-80EC-01BAC6AD6BDF</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_evaluacion" id="4CFE961C-2700-0737-7F2F-3A0057C73AA1">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la evalacion
+]]></commentInRDBMS>
+<generatorID>C7EDF25F-8CCF-5D59-A83E-25B1204064AB</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_fase1" id="058C651F-4DC6-793A-A1CA-8F886DDF7615">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la fase 1
+]]></commentInRDBMS>
+<generatorID>77B9E908-6D63-ED83-D70E-7316D3B6004B</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_fase2" id="94B91CA6-8DEE-D653-5F84-1273208B3ECF">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la gase 2]]></commentInRDBMS>
+<generatorID>3086D977-4473-95B0-AD96-17E75E9E2C9C</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_tipo_licencia" id="B6947CDE-5C3D-7079-C303-6CEE2558CC3F">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del tipo de licencia que eprtence]]></commentInRDBMS>
+<generatorID>B2C55E28-43D6-A56C-8800-04C9E7D1C2F2</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_licencia_ID_tipo" id="C0D26390-DDAC-78AF-E786-FDC9F5580798">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>E90EF7A8-B636-81F9-3CFD-A1CEF91A1DF7</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60C499E8-DEDB-9C33-6460-66279489E0E7" referredColumn="B6EAC76D-1D51-194B-E098-7BE263D31144"/>
+</associations>
+</Column>
+<Column name="Correlativo" id="AF3D50E2-7DF9-C06F-AB97-CFA3E9411987">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correlativo
+]]></commentInRDBMS>
+<generatorID>EDA5F345-1841-E538-0C21-EADA73DD4FB6</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA72782A-1626-DDF4-B981-985F5895529C" name="Evaluacion_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>A9938BBF-10FA-55D4-3E14-2A97F85ACF15</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CFE961C-2700-0737-7F2F-3A0057C73AA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B01FB98-6151-8D91-73ED-F0CB24C6ADA1" name="Evaluacion_Tipo_licencia_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>06B6A1AD-5097-1C74-8795-A044C3835C09</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D26390-DDAC-78AF-E786-FDC9F5580798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

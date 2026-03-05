@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38A81154-1D53-FD0C-C89C-FE8FDBB100E6" name="Usuarios">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:01:54 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre completo" id="7D2BB2A2-FCF6-CEC9-0C63-3631137FD258">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:02:32 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Edad" id="9EF93F23-1BFE-61CD-2385-64146F8481B7">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:02:49 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="A6212DE0-A4D3-1ADC-245E-72F9FF2193A6">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:03:00 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="D415653A-9A66-F8FD-C058-D3E2433A4C9F">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:03:14 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="932615FE-F78E-45EF-E5FB-34B26E782EBD">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:03:28 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de inscrupcion" id="966AA0E7-270C-2BBD-8485-91CF11E2F668">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:03:40 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado de membresia" id="AA704A66-158C-C705-EACA-63D0B3E77BF1">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:03:53 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_usuario" id="3EFED100-4358-010F-B108-0DF68109FF7A">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:04:04 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF690505-F5F2-C103-2D52-39A0DA42CF57" name="Usuarios PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:04:36 UTC</createdTime>
+<ownerDesignName>Tarea2</ownerDesignName>
+<engineerTo>
+<item key="4950CC6A-71F9-B14D-EBEC-55155DD0C5BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EFED100-4358-010F-B108-0DF68109FF7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

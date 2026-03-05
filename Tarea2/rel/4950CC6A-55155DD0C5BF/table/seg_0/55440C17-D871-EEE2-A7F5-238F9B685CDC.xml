@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55440C17-D871-EEE2-A7F5-238F9B685CDC" name="Rutinas">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>423B2606-62B3-D907-7CEA-656F43D8B537</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Rutina" id="2CE02F75-473D-4F5E-ADC3-A00745A02089">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>4FFE3FBD-A08E-05EC-7D37-45AE9EAA299E</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_de_la_rutina" id="81196E22-8832-BAF2-7F58-4EE75C26753B">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>ED1C6B2A-E9A8-01C9-8221-CA29E9C29FBE</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_usuario" id="C66D990D-1D52-DCCA-2E81-34C901C9514B">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>01777A44-61D7-CD81-D47C-6A870CB1B5CD</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID__grupo_muscular" id="D9B46141-9818-102E-4414-E4E1CA0275AD">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>F1865351-F9E4-1D8B-2868-3AF71D6B7963</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ejerccio" id="68BB592D-33FC-64E4-D254-0E1836584B2C">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>E96CB743-69CF-1774-FEEE-4DA469781D8E</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuarios_ID_usuario" id="1C7A0CB1-0A17-E433-8DBF-2D69ADBC2FA5">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>C58C24B7-43B4-2775-8259-35B68DB337F8</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0393389-84A2-5D55-7099-73F90E3F08C5" referredColumn="E153A8AF-D25F-4C3C-9413-0FE391757A1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7EF6B26-F4E5-C200-F174-2F7B7F45EB29" name="Rutinas_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>C4F10705-B06F-2F06-943A-2B1E84C16080</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CE02F75-473D-4F5E-ADC3-A00745A02089"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64F1F4F8-AF83-9A47-B98D-19EB0EDCDA98" name="Rutinas_Usuarios_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>8B199040-F6F1-CE16-CECF-58F55B27A685</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7A0CB1-0A17-E433-8DBF-2D69ADBC2FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

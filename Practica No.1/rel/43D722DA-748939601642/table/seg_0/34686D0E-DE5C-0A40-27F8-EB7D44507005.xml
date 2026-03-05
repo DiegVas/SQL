@@ -1,0 +1,222 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34686D0E-DE5C-0A40-27F8-EB7D44507005" name="Escuelas_de_automovilismo">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>88D195E8-320C-355F-7A40-1ED3C39671EC</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Escuela" id="60526EE4-80ED-125C-8045-F2E9DB1CF33A">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la escuela
+]]></commentInRDBMS>
+<generatorID>1497C685-C133-1804-37EA-7BBD2C1E5E56</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Centro_Evaluacion" id="3D9662C3-28AD-BE0A-2D70-B045AD9547F0">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del centro del evaluacion
+]]></commentInRDBMS>
+<generatorID>306CA7A1-184C-B9C4-2113-2A516B498303</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="5E0C0931-7A76-D80A-A9AE-E9AA716DD840">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del centro de evaluacion
+]]></commentInRDBMS>
+<generatorID>27CBBA19-9CF1-349C-D1EA-123AF3CD5A06</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="37726657-618F-20E0-1038-EE22D7F57BE1">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion de de la escuela
+]]></commentInRDBMS>
+<generatorID>48725B2B-4878-86AF-4646-2A2A3F0E4FCC</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_de_autorizacion" id="0D90AFA1-6A29-3EEC-3B93-A3070FE75E50">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de autorizacion
+]]></commentInRDBMS>
+<generatorID>E348560C-9707-25EF-AD7E-1A4B440B5CD2</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Centros_de_evaluacion_ID_centro" id="CD8EADBC-C997-BCF5-EEF4-4B99927A2B25">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del centro de evalcion ]]></commentInRDBMS>
+<generatorID>EACE12C4-3167-D977-F2F0-3793B053387E</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FDE2B87-623B-4406-6331-39F072175334" referredColumn="B9976AB0-28E6-C68A-9CF4-CA4CB5D97D8D"/>
+</associations>
+</Column>
+<Column name="Dia_ID_dia" id="394AAF24-F0CA-2BC0-9719-AE49FB328BDD">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del dia]]></commentInRDBMS>
+<generatorID>7B34119F-A328-20BD-F64E-405002BA5715</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DD9A342-B0CB-2293-2098-F139ACF8908B" referredColumn="B030EC38-EF7C-F935-56B3-4621899107F3"/>
+</associations>
+</Column>
+<Column name="Centros_de_evaluacion_Departamento_ID_departamento" id="9F4C9412-E922-690D-5042-DE3B6B409784">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>21B776CA-1741-DBE4-4055-15288642C425</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FDE2B87-623B-4406-6331-39F072175334" referredColumn="EE072796-7579-F23F-8848-BCFC973072DC"/>
+</associations>
+</Column>
+<Column name="Departamento_ID_departamento" id="C0726D8C-BB9A-6137-5A9E-D8D5A623E588">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del departamento]]></commentInRDBMS>
+<generatorID>37A28070-87A0-0DF6-B7B7-4E8582B79C30</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18CF7EBA-7262-636E-699A-EF5191A08C86" referredColumn="1AFE4D10-5236-B9CC-EBB0-1D8A914F43E9"/>
+</associations>
+</Column>
+<Column name="Municipio_ID_municipio" id="8653A4C0-B76D-B9BA-C3C6-D8E7B6A2E0EE">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del municiopio que pertenece]]></commentInRDBMS>
+<generatorID>BA5A2A9D-6073-63A9-4264-CEA5E661E61C</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE320439-ADA1-F966-CA3D-731640876CB3" referredColumn="4E667BCC-5BE4-7634-C418-993D5A085F70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84C02C86-DFF4-0B5A-7BEA-D80FA31690E6" name="Escuelas_de_automovilismo_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>62007A9C-05BD-4021-709E-CA6AC5E8F689</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60526EE4-80ED-125C-8045-F2E9DB1CF33A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C88C65CC-4D56-DE68-E9E5-8E9D2BBB815C" name="Escuelas_de_automovilismo_Centros_de_evaluacion_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>01970946-8506-6A1B-2C38-432B66E2C4B0</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8EADBC-C997-BCF5-EEF4-4B99927A2B25"/>
+<colUsage columnID="9F4C9412-E922-690D-5042-DE3B6B409784"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C807DAA4-2899-A5EC-515D-722E9444EA32" name="Escuelas_de_automovilismo_Dia_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>9210D8A2-A0B3-005E-37EE-95BF89A58748</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="394AAF24-F0CA-2BC0-9719-AE49FB328BDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07B41338-C40E-F948-3116-B6C9A58D09BA" name="Escuelas_de_automovilismo_Departamento_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>E5D746B6-7AD9-D9C2-D9E6-FC29ACC26A54</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0726D8C-BB9A-6137-5A9E-D8D5A623E588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D078EA71-8F11-9FD2-21CC-BADD50273FB5" name="Escuelas_de_automovilismo_Municipio_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>0E896EDC-4E08-EF98-E67E-9F46C48AE035</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8653A4C0-B76D-B9BA-C3C6-D8E7B6A2E0EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

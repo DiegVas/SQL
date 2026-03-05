@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="365323A2-2A76-0A16-3548-59A42BD97754" name="Tramite">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>C936BF06-5877-29A8-386C-B2E6F4B0AEAB</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tramite" id="3E0615E3-49CD-AB34-1EFE-852AD3395117">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[ID del tramite
+]]></commentInRDBMS>
+<generatorID>DB8CF6DB-C51B-92B5-9EF1-D1BCBD6CCD3E</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tramite" id="3D53EA9A-DB27-2B90-4BBB-0414616F11FD">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del tramite
+]]></commentInRDBMS>
+<generatorID>B3535393-9668-358E-6910-8C0FA93458A0</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Personas_ID_persona" id="CD41FA19-0DA2-E76B-A54E-DE58796D6D01">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la persona que tiene ese tramite
+]]></commentInRDBMS>
+<generatorID>9A94E7F3-9E73-88D5-A532-65152FA020F9</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9517F4F1-F7B0-EA96-B237-8A17B46A95AA" referredColumn="B70CE1D8-92A2-329D-DD48-0D8D9484C866"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B714CEB6-E712-D202-4A08-0E10670F887D" name="Tramite_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>E3719A7A-B8C6-0E46-CEC6-23F8FB0E1D06</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E0615E3-49CD-AB34-1EFE-852AD3395117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AC26EE9-A16F-463F-F568-BE0001AF58C2" name="Tramite__IDX">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7276871B-18EC-5132-A3A9-AFA5A6F89AA3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CD41FA19-0DA2-E76B-A54E-DE58796D6D01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4EC18D9-0A99-FBE4-C75B-4728C48CA393" name="Tramite_Personas_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>7276871B-18EC-5132-A3A9-AFA5A6F89AA3</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD41FA19-0DA2-E76B-A54E-DE58796D6D01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

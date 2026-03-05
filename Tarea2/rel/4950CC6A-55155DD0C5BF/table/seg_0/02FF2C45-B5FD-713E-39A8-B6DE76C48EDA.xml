@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02FF2C45-B5FD-713E-39A8-B6DE76C48EDA" name="Ejerccio">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>153A8EA2-26B7-8905-81DE-30DF91D5A0E7</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ejerccio" id="3EDB8A00-B1CD-2144-3AA3-4679A6164F2C">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>1CF2C9B3-BD8C-0470-60BD-46B9E9162CC4</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_del_ejerccio" id="1C18BE74-78D6-F212-3E6F-B369F8CF8D72">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>35B2500B-2E95-F4F4-AD68-2CDC45D1C86C</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipamento" id="38A6ADB5-BBCB-1EDB-D172-541A42799EB1">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>4FF8568A-466E-F195-30EA-47A084481915</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rutinas_ID_Rutina" id="E061415F-7F3C-219F-60CB-268AAB6B8D6C">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>D13872AC-548C-9A7D-4DFB-E32D45534D9C</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F70C950-DA34-0F2A-17BB-2F94638D6EFB" referredColumn="2CE02F75-473D-4F5E-ADC3-A00745A02089"/>
+</associations>
+</Column>
+<Column name="Series" id="F5874FFF-37DD-32AA-0DD4-CC8E7EB4E896">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>6B496647-DB09-BBC0-788A-6ACD4F031E87</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>8F70C950-DA34-0F2A-17BB-2F94638D6EFB</dependOnForeignKeyID>
+</Column>
+<Column name="Repeticiones" id="A24F0B70-3299-41CD-D1D0-71B4AC1D237D">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>B44F6EFB-26C6-0522-7031-C230A3C56F3A</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>8F70C950-DA34-0F2A-17BB-2F94638D6EFB</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B1F8100-39FA-B308-3422-455E23BB079C" name="Ejerccio_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>1D482DEC-9C42-1FF5-C3D7-3EA50FBD2E62</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EDB8A00-B1CD-2144-3AA3-4679A6164F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B8911F0-1632-B628-90FF-F614C6B33527" name="Ejerccio_Rutinas_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-17 02:35:59 UTC</createdTime>
+<generatorID>2D1E64D9-AF1D-D679-380B-79DD09C170B0</generatorID>
+<ownerDesignName>Tarea2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E061415F-7F3C-219F-60CB-268AAB6B8D6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

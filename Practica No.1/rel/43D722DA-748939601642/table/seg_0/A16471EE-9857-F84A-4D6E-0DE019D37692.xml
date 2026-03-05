@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A16471EE-9857-F84A-4D6E-0DE019D37692" name="Relation_6">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Evaluacion_ID_evaluacion" id="0B0E6B66-585C-DFFC-892C-8F5990D6F5E0">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C84F70F-B7D1-623E-A1E3-245B546D87EF" referredColumn="4CFE961C-2700-0737-7F2F-3A0057C73AA1"/>
+</associations>
+</Column>
+<Column name="Pregunta_teorica_ID_pregunta_teorica" id="FE5F2622-FCEE-167E-59C6-532613F40B83">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="623ABC65-C373-B3EB-CC92-3006B803B56A" referredColumn="27452F65-C91A-6578-F95E-FC97F764A078"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F81142BE-DC12-CE8C-28B4-3AF9102DFC83" name="Relation_6_PK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B0E6B66-585C-DFFC-892C-8F5990D6F5E0"/>
+<colUsage columnID="FE5F2622-FCEE-167E-59C6-532613F40B83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00490184-CFB3-0F8B-FEBF-BC195DBDEB38" name="Relation_6_Evaluacion_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>94D534EB-6559-CBB5-6795-1BCD09AF967E</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B0E6B66-585C-DFFC-892C-8F5990D6F5E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC6B427F-E542-0AE1-F919-33ADF90A4603" name="Relation_6_Pregunta_teorica_FK">
+<createdBy>Diego</createdBy>
+<createdTime>2026-02-20 05:44:17 UTC</createdTime>
+<generatorID>94D534EB-6559-CBB5-6795-1BCD09AF967E</generatorID>
+<ownerDesignName>Practica No.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE5F2622-FCEE-167E-59C6-532613F40B83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
