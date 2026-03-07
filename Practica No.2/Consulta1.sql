@@ -42,4 +42,6 @@ THEN 'APROVADO' ELSE 'NO APROVADO' END
 
 FROM EXAMEN ex 
 JOIN REGISTRO re ON ex.registro_id_registro = re.id_registro
-GROUP BY ex.id_examen,re.fecha ,re.nombre_completo, re.genero ,re.tipo_tramite ,re.tipo_licencia 
+   WHERE re.fecha BETWEEN TO_DATE('13/08/2025', 'DD/MM/YYYY') AND TO_DATE('13/08/2025', 'DD/MM/YYYY')
+
+

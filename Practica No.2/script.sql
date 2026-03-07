@@ -73,7 +73,6 @@ CREATE TABLE ESCUELA (
 
 
 CREATE TABLE UBICACION (
-    ubicacion_id NUMBER PRIMARY KEY,
     escuela_id_escuela NUMBER,
     centro_id_centro NUMBER
     );
